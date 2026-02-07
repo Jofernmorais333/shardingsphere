@@ -114,7 +114,7 @@
         <logback.version>1.2.13</logback.version>
         <commons-logging.version>1.2</commons-logging.version>
         
-        <lombok.version>1.18.38</lombok.version>
+        <lombok.version>1.18.42</lombok.version>
         <jsr305.version>3.0.2</jsr305.version>
         <immutables.version>2.10.1</immutables.version>
         
@@ -763,7 +763,7 @@
                             </goals>
                             <configuration>
                                 <rules>
-                                    <dependencyConvergence />
+                                    <dependencyConvergence/>
                                     <requireMavenVersion>
                                         <version>${maven.version.range}</version>
                                     </requireMavenVersion>
@@ -905,7 +905,7 @@
                             </filter>
                         </filters>
                         <transformers>
-                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                         </transformers>
                     </configuration>
                 </plugin>
